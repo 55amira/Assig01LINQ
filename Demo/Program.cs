@@ -108,6 +108,47 @@
             //    Console.Write($"{item} ");
             //}
 
+
+            // LINQ Syntax 
+            // 1. Fluent Syntax 
+            // Use LINQ Methods 
+            // 1.1. LINQ Operator as => Class Memeber Method Through Class "Enumerable" 
+
+
+            //List<int> Numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 8, 9, 10 };
+            //var result = Enumerable.Where(Numbers, X => X % 2 == 0);
+
+            //foreach (var item in result)
+            //{
+            //    Console.Write(value: $"{item} ");
+            //}
+
+
+            //1.2. LINQ Operator as => Extension Method Through Sequence 
+
+            // List<int> Numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 8, 9, 10 };
+            //var result = Numbers.Where(X => X % 2 == 0);
+
+            //foreach (var item in result)
+            //{
+            //    Console.Write(value: $"{item} ");
+            //}
+
+
+            // 2. Query Syntax [Query Expression] Like SQL Sytle 
+            // start from 
+            // end select, group by 
+
+            //List<int> Numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 8, 9, 10 };
+            //var result = from N in Numbers
+            //             where N % 2 == 0
+            //             select N;
+
+
+            //foreach (var item in result)
+            //{
+            //    Console.Write(value: $"{item} ");
+            //}
         }
     }
 }
