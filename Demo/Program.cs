@@ -82,6 +82,32 @@
             //Number.Reverse();
             //Console.WriteLine(result);
 
+
+            // LINQ: Language Integrated Query 
+            //: 40+ Extension Methods (LINQ Operators) Against Any Data [Data in Sequence] 
+            //: Regardless Data Store 
+            //: 13 Category 
+            //: LINQ Operators Exists in Built-in Class "Enumerable" 
+            // Sequence Object From Class Implement Interface "IEnumerable" 
+            // Local Sequence : L20, L2XML 
+            // Remote Sequence: L2EF 
+            // Input Sequence -> LINQ Operator > Output Sequence 
+            // Input Sequence> LINQ Operator> One Value -> 
+            // LINO Operator -> Output Sequence
+
+            //List<int> Numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; 
+
+            ////var result = Enumerable. Where (Numbers, N => N%2= 0); 
+            ////var result = Enumerable.Any (Numbers, N=> N % 2 == 0); 
+            //var result = Enumerable.Range(1, 100); 
+
+            ////Console.WriteLine(result); 
+            ///
+            //foreach (var item in result)
+            //{
+            //    Console.Write($"{item} ");
+            //}
+
         }
     }
 }
