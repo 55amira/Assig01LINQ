@@ -1,4 +1,4 @@
-﻿ namespace Demo
+﻿namespace Demo
 {
     internal class Program
     {
@@ -149,6 +149,33 @@
             //{
             //    Console.Write(value: $"{item} ");
             //}
+
+            // LINQ Execution Ways 
+            // 1. Differed Execution Way : 10 Category
+            // 2. Immediate Execution Way 3 Category [Elements Operator, Casting Operators, Aggregat  Operators]
+
+            //List<int> Numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 8, 9, 10 };
+
+            //var result = Numbers.Where(X => X % 2 == 0); // Differed 
+            //Numbers.AddRange(new int[] { 11, 12, 13, 14, 15 });
+
+            //foreach (var item in result) //here
+            //{
+            //    Console.Write(value: $"{item} ");
+            //}
+
+            //List<int> Numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 8, 9, 10 };
+
+            //var result = Numbers.Where(X => X % 2 == 0).ToList(); // Immediate 
+
+            //Numbers.AddRange(new int[] { 11, 12, 13, 14, 15 });
+
+            //foreach (var item in result) 
+            //{
+            //    Console.Write(value: $"{item} ");
+            //}
+
+
         }
     }
 }
