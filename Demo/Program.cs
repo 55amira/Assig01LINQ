@@ -42,33 +42,45 @@
 
             // Employee E01 = new Employee() { Id=1,Name="Ahmed",Slaray=12000};
 
-            var E01 = new { Id = 1, Name = "Ahmed", Slaray = 12000.0m };
-            var E02 = new { Id = 1, Name = "Ahmed", Slaray =12000.0m };
-            //Console.WriteLine(E01.Id); 
+            //var E01 = new { Id = 1, Name = "Ahmed", Slaray = 12000.0m };
+            //var E02 = new { Id = 1, Name = "Ahmed", Slaray =12000.0m };
+            ////Console.WriteLine(E01.Id); 
             //Console.WriteLine(E01.Name); 
             //Console.WriteLine(E01.Salary); 
             //E01.Id = 12; // Invalid Immutable Can't Change Its Value After Creation 
 
-            Console.WriteLine(E01.GetType().Name); // f_Anonymous Type 3 
+            //Console.WriteLine(E01.GetType().Name); // f_Anonymous Type 3 
 
-            Console.WriteLine(E01.GetType().Name); // <>f__Anonymous Type 3 
+            //Console.WriteLine(E01.GetType().Name); // <>f__Anonymous Type 3 
 
 
             // The Same Anonymous Type As long as: 
-             // 1. The Same Property Name [Case Sensitive] 
-             // 2. The Same Property Order 
-             //Console.WriteLine(E01); // { Id = 1, Name Ahmed, Salary = 12000.0 } 
-             // Compiler Will Override On ToString 
+            // 1. The Same Property Name [Case Sensitive] 
+            // 2. The Same Property Order 
+            //Console.WriteLine(E01); // { Id = 1, Name Ahmed, Salary = 12000.0 } 
+            // Compiler Will Override On ToString 
 
-              Console.WriteLine(E01.GetHashCode());
+            //Console.WriteLine(E01.GetHashCode());
 
-            Console.WriteLine(E02.GetHashCode());
+            //Console.WriteLine(E02.GetHashCode());
 
-            if (E01.Equals(E02))
-                Console.WriteLine(value: "E01 == Ε02");
-            else
-                Console.WriteLine(value: "E01 != Ε02");
+            //if (E01.Equals(E02))
+            //    Console.WriteLine(value: "E01 == Ε02");
+            //else
+            //    Console.WriteLine(value: "E01 != Ε02");
 
+
+            //Extension Method
+
+            //int Number = 12345;
+            //var result = IntExtension.Reverse(Number);
+            //Number.Reverse();
+            //Console.WriteLine(result);
+
+            //long Number = 12345;
+            //var result = IntExtension.Reverse(Number);
+            //Number.Reverse();
+            //Console.WriteLine(result);
 
         }
     }
