@@ -1,4 +1,5 @@
-﻿namespace Demo
+﻿using static Demo.ListGenerator;
+namespace Demo
 {
     internal class Program
     {
@@ -175,6 +176,15 @@
             //    Console.Write(value: $"{item} ");
             //}
 
+            //Console.WriteLine(ProductList[0]);
+            //Console.WriteLine(CustomerList[0]);
+
+            //var result = ProductList.Where(P=>P.UnitsInStock==0);
+
+            //foreach (var unit in result)
+            //{
+            //    Console.WriteLine(unit);
+            //}
 
         }
     }
